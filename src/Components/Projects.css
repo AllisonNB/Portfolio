@@ -1,0 +1,71 @@
+.grid {
+    background-image: url('../assets/WhiteBrickWall.jpg');
+    background-size: cover;
+    padding: 10% 5%;
+    margin-bottom: 40px;
+    box-shadow: 0px 25px 14px 7px #C4C4C4;
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2% 10%;
+    grid-template-areas:
+        "p1 . p2"
+        ". p3 .";
+}
+
+.project1 {
+    grid-area: p1;
+    width: 100%;
+    height: 100%;
+}
+
+.project2 {
+    grid-area: p2;
+    width: 100%;
+    height: 100%;
+}
+
+.project3 {
+    grid-area: p3;
+    width: 100%;
+    height: 100%;
+}
+
+/* .title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000524;
+    grid-area: hd;
+} */
+
+
+
+/* mobile*/
+@media (max-width: 30rem) {
+    .grid {
+        padding: 20% 10% 10% 10%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+
+/* tablet*/
+@media (min-width: 31rem) and (max-width:48rem) {
+    .grid {
+        padding: 20% 5% 10% 5%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0 5%;
+        grid-template-areas:
+            "p1 p3 p2";
+    }
+}

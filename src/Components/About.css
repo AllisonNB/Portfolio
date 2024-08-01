@@ -1,0 +1,70 @@
+.layout {
+    background: #000524;
+    height: 100vh;
+    color: white;
+    padding: 90px 100px 60px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'hd icons icons'
+        'p p p';
+}
+
+.layout h1 {
+    grid-area: hd;
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.layout p {
+    grid-area: p;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+.icons {
+    grid-area: icons;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icons a {
+    margin-left: 5%;
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+.icons a:hover {
+    transform: scale(1.2);
+}
+
+/* mobile*/
+@media (max-width: 30rem) {
+    .layout {
+        padding: 20% 10% 5% 10%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
+    .layout p {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* tablet */
+@media (min-width: 31rem) and (max-width:48rem) {
+    .layout {
+        height: 100vh;
+    }
+
+    .layout p {
+        font-size: 1.5rem
+    }
+}

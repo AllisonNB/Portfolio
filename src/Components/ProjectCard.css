@@ -1,0 +1,66 @@
+figure {
+    background-color: #ffff;
+    padding: 19px 19px 5px 19px;
+    box-shadow: 1px 5px 5px 0px grey;
+}
+
+
+.frame {
+    position: relative;
+}
+
+.frame::before {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    background-color: #ECE5CC;
+    opacity: 0.7;
+    border: 1px solid #ECE5CC;
+}
+
+.frame::before {
+    top: -5%;
+    left: -22%;
+    transform: rotate(-45deg);
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+.cap {
+    font-size: 1.2rem;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.link:hover {
+    color: #65a352;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+/* mobile*/
+@media (max-width: 30rem) {
+    figure {
+        margin-bottom: 15%;
+    }
+}
+
+
+/* tablet*/
+@media (min-width: 31rem) and (max-width:48rem) {}
