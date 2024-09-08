@@ -12,17 +12,17 @@ export default function About() {
                 <a href="mailto: allison.brown@hotmail.com">
                     <MdOutlineEmail />
                 </a>
-                <a href="https://github.com/AllisonNB">
+                <a href="https://github.com/AllisonNB" target="_blank">
                     <FaGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/allison-brown-49210889">
+                <a href="https://www.linkedin.com/in/allisonbrown492" target="_blank">
                     <FaLinkedin />
                 </a>
-                <a href="">
+                <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <CgFileDocument />
                 </a>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error expedita beatae deserunt voluptatibus pariatur sint doloremque quia, soluta rerum dolorem culpa eum officia veniam ratione. Facere rerum numquam tenetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium nulla nemo porro est quibusdam minima. Modi, suscipit, iusto repellendus quia blanditiis omnis rem dolorem ut ea fuga nobis exercitationem. Libero!</p>
+            <p>As a passionate and detail-oriented software developer, I bring a unique blend of skills and experiences from my background in education and healthcare. My journey into web development was sparked by my role at the University of Toronto Scarborough (UTSC), where I utilized Learning Management Systems (LMS) to create engaging and effective learning resources for students. This experience ignited my passion for web development and creative projects, leading me to pursue further education and training in this field.</p>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import imgArray from "../assets/ImgArray";
+import imgArray from "../../public/assets/ImgArray";
 import { HiArrowCircleDown } from "react-icons/hi";
 import './Header.css';
 

@@ -1,11 +1,8 @@
 import './Projects.css';
 import ProjectCard from "./ProjectCard";
-import PuzzleSwap from '../assets/PuzzleSwap.jpg';
-import TvTuneTrivia from '../assets/TvTuneTrivia.jpg';
-
-
-//update with campground screenshot
-import Img18 from '../assets/Img18.jpg';
+import PuzzleSwap from '../../public/assets/PuzzleSwap.jpg';
+import TvTuneTrivia from '../../public/assets/TvTuneTrivia.jpg';
+import TentsnTrails from '../../public/assets/Tents-Trails.jpg'
 
 
 export default function Projects() {
@@ -14,12 +11,11 @@ export default function Projects() {
             <div className='project1'>
                 <ProjectCard
                     title='Campground'
-                    image={Img18}
+                    image={TentsnTrails}
                     description='A review site that allows users to add reviews of different campgrounds.'
-                    github=''
+                    github='https://github.com/AllisonNB/Tents-Trails/tree/main'
                     live=''
-                >
-                </ProjectCard>
+                ></ProjectCard>
             </div>
             <div className='project2'>
                 <ProjectCard

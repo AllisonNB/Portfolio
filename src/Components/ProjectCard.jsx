@@ -12,8 +12,8 @@ export default function ProjectCard({ title, image, description, github, live })
                 <h2>{title}</h2>
                 <p>{description}</p>
                 <div className='links'>
-                    <a className='link' href={live}>Live</a>
-                    <a className='link' href={github}>Github</a>
+                    <a className='link' href={live} target="_blank">Live</a>
+                    <a className='link' href={github} target="_blank">Github</a>
                 </div>
             </figcaption>
         </figure>
