@@ -12,9 +12,9 @@ export default function Projects() {
                 <ProjectCard
                     title='Campground'
                     image={TentsnTrails}
-                    description='A review site that allows users to add reviews of different campgrounds.'
+                    description='Not live yet! A review site that allows users to add reviews of different campgrounds.'
                     github='https://github.com/AllisonNB/Tents-Trails/tree/main'
-                    live=''
+                    live='https://github.com/AllisonNB/Tents-Trails/tree/main'
                 ></ProjectCard>
             </div>
             <div className='project2'>
