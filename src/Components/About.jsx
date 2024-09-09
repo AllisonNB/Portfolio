@@ -22,7 +22,7 @@ export default function About() {
                     <CgFileDocument />
                 </a>
             </div>
-            <p>As a passionate and detail-oriented software developer, I bring a unique blend of skills and experiences from my background in education and healthcare. My journey into web development was sparked by my role at the University of Toronto Scarborough (UTSC), where I utilized Learning Management Systems (LMS) to create engaging and effective learning resources for students. This experience ignited my passion for web development and creative projects, leading me to pursue further education and training in this field.</p>
+            <p>As a passionate and detail-oriented software developer, I bring a unique blend of skills and experiences from my background in education and healthcare. My journey into web development was sparked by my role at the University of Toronto Scarborough (UTSC), where I utilized Learning Management Systems (LMS) to create engaging and effective learning resources for students. This experience ignited my passion for web development and making creative projects, leading me to pursue further education and training in this field.</p>
         </div>
     )
 }
