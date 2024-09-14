@@ -14,7 +14,7 @@ export default function Projects() {
                     image={TentsnTrails}
                     description='Not live yet! A review site that allows users to add reviews of different campgrounds.'
                     github='https://github.com/AllisonNB/Tents-Trails/tree/main'
-                    live='https://github.com/AllisonNB/Tents-Trails/tree/main'
+                    live='https://tentsandtrails.netlify.app/'
                 ></ProjectCard>
             </div>
             <div className='project2'>
