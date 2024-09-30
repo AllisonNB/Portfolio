@@ -12,7 +12,7 @@ export default function Projects() {
                 <ProjectCard
                     title='Campground'
                     image={TentsnTrails}
-                    description='Not live yet! A review site that allows users to add reviews of different campgrounds.'
+                    description='A review site that allows users to add reviews of different campgrounds.'
                     github='https://github.com/AllisonNB/Tents-Trails/tree/main'
                     live='https://tentsandtrails.netlify.app/'
                 ></ProjectCard>
