@@ -2,15 +2,16 @@
     background: #000524;
     height: 100vh;
     color: white;
-    padding: 90px 100px 60px 100px;
+    padding: 8% 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'hd icons icons'
         'p p p';
+    gap: 2%;
 }
 
-.layout h1 {
+.layout img {
     grid-area: hd;
     display: flex;
     align-items: center;
@@ -41,9 +42,9 @@
 }
 
 /* mobile*/
-@media (max-width: 31rem) {
+@media (max-width: 425px) {
     .layout {
-        padding: 20% 10% 5% 10%;
+        padding: 10%;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -52,18 +53,18 @@
     }
 
     .layout p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
 
 /* tablet */
-@media (min-width: 32rem) and (max-width:64rem) {
+@media (min-width: 426px) and (max-width: 768px) {
     .layout {
         height: 100vh;
     }
 
     .layout p {
-        font-size: 1.5rem
+        font-size: 1.5rem;
     }
 }
