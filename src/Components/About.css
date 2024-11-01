@@ -14,7 +14,6 @@
     grid-area: hd;
     display: flex;
     align-items: center;
-    font-size: 3.5rem;
 }
 
 .layout p {
@@ -42,7 +41,7 @@
 }
 
 /* mobile*/
-@media (max-width: 30rem) {
+@media (max-width: 31rem) {
     .layout {
         padding: 20% 10% 5% 10%;
         height: 100vh;
@@ -53,13 +52,13 @@
     }
 
     .layout p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
 
 /* tablet */
-@media (min-width: 31rem) and (max-width:48rem) {
+@media (min-width: 32rem) and (max-width:64rem) {
     .layout {
         height: 100vh;
     }
